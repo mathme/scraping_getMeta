@@ -1,0 +1,15 @@
+{
+    "name": "scraping_getMeta",
+    "version": "1.0.0",
+    "main": "index.js",
+    "repository": "https://github.com/mathme/scraping_getMeta.git",
+    "author": "masumi murata <mathme.m@gmail.com>",
+    "license": "MIT",
+    "type": "module",
+    "dependencies": {
+        "axios": "^0.27.2",
+        "cheerio": "^1.0.0-rc.12",
+        "fs": "^0.0.1-security",
+        "readline": "^1.3.0"
+    }
+}
