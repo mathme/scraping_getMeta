@@ -6,7 +6,7 @@ import readline from 'readline';
 
 const asyncLineReader = async (iterater) => {
     const rl = readline.createInterface({
-      input: fs.createReadStream('./url_getmeta.txt', { encoding: 'utf8' }),
+      input: fs.createReadStream('./list/url_getmeta.txt', { encoding: 'utf8' }),
       crlfDelay: Infinity
     });
   
